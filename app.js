@@ -1,13 +1,18 @@
-// function nome() {
-//     console.log ('Olá mundo')
-// }
-// nome();
+let numeroOpcoes = prompt('Escolha as opções;  0 - primeiro teste');
 
-// function nomePessoa(nome){
-//     console.log (`Olá, ${nome}`);
-// }
-// nomePessoa ('Julia');
+if (numeroOpcoes == 0){    
+    function nome() {
+    console.log ('Testes de nome!');
+    console.log ('Olá mundo');
+    }
+    nome();
 
+   let nomePessoa = prompt('Qual seu nome?');
+    function nomePessoa(nome){
+       console.log (`Olá, ${nome}`);
+    }
+
+}
 // function dobro(a){
 //     return a * 2;
 // }
