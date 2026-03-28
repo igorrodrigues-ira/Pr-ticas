@@ -1,4 +1,4 @@
-let numeroOpcoes = prompt('Escolha as opções;\n 0 - primeiro teste');
+let numeroOpcoes = prompt('Escolha as opções;\n 0 - primeiro teste: \n 1 - Calculo do dobro:');
 
 if (numeroOpcoes == 0){    
     function inicio() {
@@ -13,13 +13,13 @@ if (numeroOpcoes == 0){
     }
 nomePessoa();
 }
-
-// function dobro(a){
-//     return a * 2;
-// }
-// let resultadoDoDobro = dobro(6);
-// console.log (resultadoDoDobro);
-
+if (numeroOpcoes == 1){
+   function dobro(a){
+       return a * 2;
+   }
+   let resultadoDoDobro = dobro(6);
+   console.log (resultadoDoDobro);
+}
 // function media(a,b,c){
 //     return (a+b+c) /3;
 // }
